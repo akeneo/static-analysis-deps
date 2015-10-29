@@ -1,0 +1,24 @@
+{
+    "name": "akeneo/static-analysis-deps",
+    "description": "Akeneo static analysis",
+    "keywords": ["pim", "akeneo", "static", "analysis", "phpcs", "phpmd", "pdepend", "phpcpd", "phploc", "lint"],
+    "homepage": "http://www.akeneo.com",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "homepage": "http://www.akeneo.com/"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "2.3.*",
+        "phploc/phploc": "2.1.*",
+        "pdepend/pdepend": "2.1.*",
+        "phpmd/phpmd": "2.3.*",
+        "fabpot/php-cs-fixer": "^2.0@dev",
+        "sebastian/phpcpd": "2.0.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "stable"
+}
