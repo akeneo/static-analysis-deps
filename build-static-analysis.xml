@@ -51,7 +51,7 @@
         <exec executable="${basedir}/bin/phpmd">
             <arg path="${basedir}" />
             <arg value="xml" />
-            <arg value="Resources/jenkins/phpmd.xml" />
+            <arg value="phpmd.xml" />
             <arg value="--reportfile" />
             <arg value="${basedir}/app/build/logs/pmd.xml" />
             <arg value="--exclude" />
