@@ -15,7 +15,8 @@
         "phploc/phploc": "2.1.*",
         "phpmd/phpmd": "2.3.*",
         "fabpot/php-cs-fixer": "^2.0@dev",
-        "sebastian/phpcpd": "2.0.*"
+        "sebastian/phpcpd": "2.0.*",
+        "sebastian/phpdcd": "1.0.*"
     },
     "config": {
         "bin-dir": "bin"
