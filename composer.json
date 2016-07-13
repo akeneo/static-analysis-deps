@@ -14,7 +14,7 @@
         "squizlabs/php_codesniffer": "2.3.*",
         "phploc/phploc": "2.1.*",
         "phpmd/phpmd": "2.3.*",
-        "fabpot/php-cs-fixer": "^2.0@dev",
+        "friendsofphp/php-cs-fixer": "1.11.*",
         "sebastian/phpcpd": "2.0.*"
     },
     "config": {
